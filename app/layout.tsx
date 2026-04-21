@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FINDIT Labs | Draft Genjutsu System",
-  description: "Platform analitik draft MLBB tercanggih.",
+  title: "FINDIT MLBB Draft Analyzer",
+  description: "Advanced draft analysis for Mobile Legends",
 };
 
 export default function RootLayout({
