@@ -225,7 +225,7 @@ export default function Home() {
         {/* HUD ATAS */}
         <div className="relative w-full flex flex-col items-center justify-center min-h-[220px] mb-6">
           <div className="absolute inset-0 flex items-center opacity-80">
-            <TeamBar teamA={teamA} teamB={teamB} activeTeam={activeTeam} />
+            <TeamBar teamA={teamA} teamB={teamB} activeTeam={activeTeam ?? null} />
           </div>
 
           <div className="relative z-10 flex flex-col items-center justify-center pointer-events-none">
