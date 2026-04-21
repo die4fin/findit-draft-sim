@@ -176,7 +176,7 @@ export default function Home() {
     setTeamBPicks(finalB);
 
     try {
-      const response = await fetch("http://localhost:8001/predict", {
+      const response = await fetch("https://die4finn-findit-api.hf.space/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
