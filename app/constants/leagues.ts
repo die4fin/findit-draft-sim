@@ -66,7 +66,7 @@ export const LEAGUES: League[] = [
     { rank: 5, name: "XPROJEKT ESPORTS", logo: "/teams/xprojekt.png", matchW: 1, matchL: 2, gameW: 3, gameL: 4, diff: -1 },
     { rank: 6, name: "GEEKAY ESPORTS", logo: "/teams/geekay.png", matchW: 1, matchL: 1, gameW: 3, gameL: 3, diff: 0 },
     { rank: 7, name: "TEAM OCCUPY", logo: "/teams/occupy.png", matchW: 1, matchL: 2, gameW: 3, gameL: 5, diff: -2 },    
-    { rank: 8, name: "Twisted Minds", logo: "/teams/twisted.png", matchW: 0, matchL: 2, gameW: 0, gameL: 4, diff: -4 }
+    { rank: 8, name: "TWISTED MINDS", logo: "/teams/twisted.png", matchW: 0, matchL: 2, gameW: 0, gameL: 4, diff: -4 }
     ] 
 },
   { id: "mpl-kh", name: "MPL KH S9", flag: "https://flagcdn.com/w40/kh.png", 
@@ -90,7 +90,7 @@ export const LEAGUES: League[] = [
     { rank: 3, name: "PALADINS", logo: "/teams/paladins.png", matchW: 3, matchL: 3, gameW: 7, gameL: 7, diff: 0 },
     { rank: 4, name: "BLACKTHORN", logo: "/teams/blackthorn.png", matchW: 3, matchL: 2, gameW: 6, gameL: 6, diff: 0 },
     { rank: 5, name: "FALCONS ESPORTS", logo: "/teams/falconse.png", matchW: 2, matchL: 3, gameW: 6, gameL: 6, diff: 0 },
-    { rank: 6, name: " AI ESPORTS", logo: "/teams/ai.png", matchW: 2, matchL: 3, gameW: 5, gameL: 6, diff: -1 },
+    { rank: 6, name: "AI ESPORTS", logo: "/teams/ai.png", matchW: 2, matchL: 3, gameW: 5, gameL: 6, diff: -1 },
     { rank: 7, name: "MYTHIC SEAL", logo: "/teams/mythic.png", matchW: 2, matchL: 3, gameW: 5, gameL: 6, diff: -1 },
     { rank: 8, name: "WYVERNS ESPORTS", logo: "/teams/wyverns.png", matchW: 2, matchL: 3, gameW: 6, gameL: 7, diff: -1 },
     { rank: 9, name: "U TITANS", logo: "/teams/utitans.png", matchW: 1, matchL: 4, gameW: 2, gameL: 8, diff: -6 },
