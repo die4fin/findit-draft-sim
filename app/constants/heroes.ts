@@ -71,7 +71,7 @@ export const MLBB_HEROES: Hero[] = [
   { id: "thamuz", name: "Thamuz", role: ["Fighter"], lane: ["EXP Lane", "Jungler"], image: "/heroes/thamuz.png", winrate: 0 },
   { id: "x-borg", name: "X.Borg", role: ["Fighter"], lane: ["EXP Lane", "Jungler"], image: "/heroes/x_borg.png", winrate: 0 },
   { id: "yin", name: "Yin", role: ["Fighter", "Assassin"], lane: ["Jungler", "EXP Lane"], image: "/heroes/yin.png", winrate: 0 },
-  { id: "yu-zhong", name: "Yu Zhong", role: ["Fighter"], lane: ["EXP Lane"], image: "/heroes/yu-zhong.png", winrate: 50 },
+  { id: "yu-zhong", name: "Yu Zhong", role: ["Fighter"], lane: ["EXP Lane"], image: "/heroes/yu_zhong.png", winrate: 50 },
   { id: "zilong", name: "Zilong", role: ["Fighter", "Assassin"], lane: ["EXP Lane"], image: "/heroes/zilong.png", winrate: 0 },
 
   // --- ASSASSIN ---

@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-6">
             <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-[#050505] border border-white/10 overflow-hidden group-hover:border-yellow-500/50 transition-all duration-300">
               <Image 
-                src="/logofd.png" 
+                src="/brand-logo.png" 
                 alt="FINDIT Logo" 
                 fill 
                 // p-1.5 dibuang agar logo mentok ke border

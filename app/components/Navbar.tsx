@@ -46,7 +46,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 relative z-10 pl-2">
             <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-[#050505] border border-white/10 overflow-hidden group-hover:border-yellow-500/50 transition-all duration-300">
               <Image 
-                src="/logofd.png" 
+                src="/brand-logo.png" 
                 alt="FINDIT Logo" 
                 fill 
                 className="object-cover transition-transform duration-500 group-hover:scale-110" 
