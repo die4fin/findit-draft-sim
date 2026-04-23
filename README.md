@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ FINDIT Core: Advanced MLBB AI Draft Simulator
 
-## Getting Started
+![FINDIT Core Banner](https://img.shields.io/badge/Status-Live_on_Vercel-success?style=for-the-badge&logo=vercel)
+![Hugging Face](https://img.shields.io/badge/AI_Engine-Hugging_Face-yellow?style=for-the-badge&logo=huggingface)
+![Next.js](https://img.shields.io/badge/Frontend-Next.js_14-black?style=for-the-badge&logo=next.js)
+![Python](https://img.shields.io/badge/Backend-Python_XGBoost-blue?style=for-the-badge&logo=python)
 
-First, run the development server:
+**FINDIT Core** is a cutting-edge, AI-powered draft simulation and analysis tool designed for Mobile Legends: Bang Bang (MLBB) competitive esports. Developed by **InFinnity Labs**, this application bridges the gap between raw statistical data and actionable tactical execution.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+By leveraging an XGBoost Machine Learning model and a highly interactive, cinematic frontend, FINDIT processes draft telemetry (Picks and Bans) in real-time to forecast win probabilities and generate dynamic, situation-specific strategic insights.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Core Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* 🌍 **Global Cross-Region Matchups:** Simulate drafts between top-tier professional teams across multiple global regions (MPL ID, MPL PH, MPL MY, MENA, CIS, etc.) with real-time FlagCDN integration.
+* 🧠 **AI-Driven Telemetry:** Powered by a Python-based Machine Learning backend hosted on Hugging Face Spaces, utilizing historical draft data to predict match outcomes with high precision.
+* 📊 **Dynamic Tactical Insights:** Generates context-aware, UK English tactical recommendations and insights based on the mathematical margin of the draft probability.
+* 🎨 **Premium Glassmorphism UI:** An "Apple-style" minimalist aesthetic featuring frosted glass panels, glowing accent telemetry, and seamless 60fps animations powered by Framer Motion.
+* 🔄 **Cinematic Reboot Sequence:** A highly immersive loading state that simulates an AI core boot-up sequence during matchup configuration.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technology Stack
 
-## Learn More
+### Frontend (User Interface & State Management)
+* **Framework:** Next.js (React)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS (with complex custom gradients and shadow layering)
+* **Animation:** Framer Motion
+* **Deployment:** Vercel
 
-To learn more about Next.js, take a look at the following resources:
+### Backend (Machine Learning & API)
+* **Language:** Python
+* **Core Model:** Scikit-Learn / XGBoost Classifier
+* **API Framework:** FastAPI / Flask (Served via REST)
+* **Deployment:** Hugging Face Spaces
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started (Local Development)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
+* Node.js (v18.x or later)
+* Git
 
-## Deploy on Vercel
+### Installation Steps
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/yourusername/findit-draft-sim.git](https://github.com/yourusername/findit-draft-sim.git)
+    cd findit-draft-sim/frontend
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open the application:**
+    Navigate to `http://localhost:3000` in your preferred browser.
+
+> **Note:** The frontend is configured to automatically communicate with the production Hugging Face AI backend. No local Python setup is strictly required to run the UI, unless modifying the ML model.
+
+## 📂 Project Structure Highlights
+
+* `/app/components`: Contains the modular UI components (`TeamSelector`, `HeroGrid`, `DraftSlot`, etc.).
+* `/app/constants`: Houses the static database for global `teams.ts` and `heroes.ts`.
+* `/app/simulator`: The main simulation engine and state manager for the Pick & Ban flow.
+
+## 👨‍💻 Developed By
+
+**FINDIT** *Architected and built from scratch by an independent software engineer and tech consultant.*
+
+---
+*If you find this project interesting, feel free to give it a ⭐️ on GitHub!*
